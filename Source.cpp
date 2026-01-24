@@ -1,14 +1,14 @@
-#include <iostream>
+ï»¿#include <iostream>
 
 int main() {
     setlocale(LC_CTYPE, "rus");
 
-    //çàäà÷à 1
+    //Ğ·Ğ°Ğ´Ğ°Ñ‡Ğ° 1
     int number;
     int sum = 0;
 
     while (true) {
-        std::cout << "Ââåäèòå öåëîå ÷èñëî èëè ÷èñëî '0', ÷òîáû çàêîí÷èòü:\n";
+        std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ñ†ĞµĞ»Ğ¾Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾ Ğ¸Ğ»Ğ¸ Ñ‡Ğ¸ÑĞ»Ğ¾ '0', Ñ‡Ñ‚Ğ¾Ğ±Ñ‹ Ğ·Ğ°ĞºĞ¾Ğ½Ñ‡Ğ¸Ñ‚ÑŒ:\n";
         std::cin >> number;
 
         if (number == 0) {
@@ -18,11 +18,11 @@ int main() {
         sum += number;  
     }
 
-    std::cout << "Ñóììà: " << sum << std::endl;
+    std::cout << "Ğ¡ÑƒĞ¼Ğ¼Ğ°: " << sum << std::endl;
 
-    //çàäà÷à 2
+    //Ğ·Ğ°Ğ´Ğ°Ñ‡Ğ° 2
     int number;
-    std::cout << "Ââåäèòå öåëîå ÷èñëî:\n";
+    std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ñ†ĞµĞ»Ğ¾Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾:\n";
     std::cin >> number;
 
     int temp = number;
@@ -38,11 +38,11 @@ int main() {
         temp /= 10;             
     }
 
-    std::cout << "Ñóììà öèôğ: " << sum << std::endl;
+    std::cout << "Ğ¡ÑƒĞ¼Ğ¼Ğ° Ñ†Ğ¸Ñ„Ñ€: " << sum << std::endl;
 
-    //çàäà÷à 3
+    //Ğ·Ğ°Ğ´Ğ°Ñ‡Ğ° 3
     int number;
-    std::cout << "Ââåäèòå öåëîå ÷èñëî:\n";
+    std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ñ†ĞµĞ»Ğ¾Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾:\n";
     std::cin >> number;
 
     for (int i = 1; i <= 10; i++) {
